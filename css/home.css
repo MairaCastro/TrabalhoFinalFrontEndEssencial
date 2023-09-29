@@ -1,0 +1,148 @@
+.conatiner-titulo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--principal);
+  font-size: 40px;
+  line-height: 52.51px;
+  font-weight: 700;
+  width: 85.2%;
+  margin: 110px auto 0 auto;
+}
+.conatiner-titulo h1{
+  font-size: 70px;
+  line-height: 120.23px;
+}
+/* .conatiner-titulo h1{
+  font-size: 110px;
+  line-height: 145.23px;
+} */
+.cinza{
+  background-color: var(--terciaria);
+  opacity: 0.8;
+  height: 8vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.titleContainer{
+  width: 18.26%;
+  border-bottom: 1px solid var(--secundaria);
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-top: 120px;
+}
+.titleContainer h1{
+  font-size: 36px;
+  line-height: 43.57px;
+  margin-bottom: 20px;
+  color: var(--principal);
+}
+.cardsContainer{
+  display: flex;
+  width: 85.2%;
+  margin: 80px auto 0 auto;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+
+.card {
+  background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  background-color: var(--quaternaria);
+  color: var(--principal);
+}
+
+.card h2 {
+	font-size: 24px;
+  line-height: 29.05px;
+	margin-bottom: 24px;
+}
+
+.card p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.card img {
+	width: 100%;
+	height: 220px;
+  object-fit: cover;
+  object-position: top;
+}
+.card button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: #ECA00D;
+    color: white;
+    font-size: 20px;
+    line-height: 29.05px;
+    margin-bottom: 40px;
+}
+.cardContent {
+ margin: 40px 35px 40px 35px;
+ text-align: center;
+}
+
+
+.bannerMid{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../src/img/bannerMid.png');
+  background-repeat: no-repeat;
+  height: 120vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.bannerMidContentContainer{
+  width: 82.29%;
+  margin: 120px auto 0 auto;
+}
+.titleBannerMid{
+  margin-bottom: 77px;
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.banneMidTitleLine{
+  width: 61.14%;
+  border-bottom: 3px solid var(--secundaria);
+  margin-top: 20px;
+}
+.contentBox{
+  background-color: var(--terciaria);
+  width: 24.75%;
+  height: auto;
+  padding: 30px;
+  font-size: 18px;
+  line-height: 21.78px;
+  font-weight: 600;
+  min-width: 300px;
+  color: var(--principal);
+}
+.contentBoxContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contentBoxDupla{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.mainHome{
+  background-color: var(--fundo);
+}

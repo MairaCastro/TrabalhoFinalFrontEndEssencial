@@ -1,0 +1,64 @@
+input{
+  margin-bottom: 20px;
+}
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  background-color: #ECA00D;
+  color: white;
+  font-size: 20px; 
+  line-height: 29.05px; 
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: #f1b844;
+}
+/* Mudou */
+#nome, #email, #senha {
+  height: 50px;
+}
+label{
+  font-size: 20px;
+}
+.header-cadastrese{
+  background-color: var(--terciaria);
+}
+/* Moudou */
+.main-cadastrese {
+  padding-top: 120px;
+  background-color: var(--terciaria);
+}
+.menu-container.cadastrese{
+  background-image: none;
+  margin: 0 auto 0 auto;
+  padding: 30px 18px 8px 20px;
+}
+.formCadastrese{
+  margin-bottom: 210px;
+}
+/* Mudou Novo Abaixo */
+.formContainer{
+  width: 55%;
+  margin: 0 auto;
+  color: var(--principal);
+}
+.formContainerTitle,
+.formContainerForm {
+  width: 100%;
+  margin: 0 auto;
+}
+.formContainerTitle{
+ margin-bottom: 55px;
+}
+.formContainerTitle h1,
+.formContainerForm form{
+  width: 100%;
+}
+.formContainerTitle h1{
+  text-align: center;
+}
+.botao button{
+  width: 100%;
+}

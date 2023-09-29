@@ -1,0 +1,10 @@
+.formRecuperar{
+  padding-bottom: 150px;
+}
+.menu-container.login.svgDark h1::before{
+  content: "";
+  background-image: url("../src/img/tereTopLogoDark.svg");
+  background-size: cover;
+  height: 45px;
+  width: 68px;
+}

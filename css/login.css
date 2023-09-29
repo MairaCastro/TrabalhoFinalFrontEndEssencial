@@ -1,0 +1,76 @@
+input{
+  margin-bottom: 20px;
+}
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  background-color: #ECA00D;
+  color: white;
+  font-size: 20px; 
+  line-height: 29.05px; 
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: #f1b844;
+}
+#nome, #email, #senha {
+  height: 50px;
+}
+label{
+  font-size: 20px;
+}
+.header-login{
+  background-color: var(--terciaria);
+}
+.main-login {
+  padding-top: 120px;
+  background-color: var(--terciaria);
+}
+.menu-container.login{
+  background-image: none;
+  margin: 0 auto 0 auto;
+  padding: 30px 18px 8px 20px;
+}
+.formContainer{
+  width: 55%;
+  margin: 0 auto;
+  color: var(--principal);
+}
+.formContainerTitle,
+.formContainerForm,
+.formContainerCadastre {
+  width: 100%;
+  margin: 0 auto;
+}
+.formContainerTitle{
+  margin-bottom: 55px;
+}
+.formContainerTitle h1,
+.formContainerForm form{
+  width: 100%;
+}
+.formContainerTitle h1{
+  text-align: center;
+}
+.botao button{
+  width: 100%;
+}
+.formContainerCadastre{
+  padding-bottom: 210px;
+  color: var(--principal);
+  display: flex;
+  flex-direction: column;
+}
+.formContainerCadastre a{
+  color: var(--principal);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.formContainerCadastre .spn{
+  color: var(--principal);
+  font-weight: bold;
+  text-decoration: underline;
+}

@@ -1,0 +1,128 @@
+.cinzaContainer{
+  background: linear-gradient(rgba(154, 176, 159, 0.8), rgba(154, 176, 159, 0.8));
+  width: 100%;
+  border-radius: 200px 200px 0 0;
+  position: absolute;
+  bottom: 0;
+}
+.cinzaContainerInside{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 83.81%;
+  margin: 0 auto;
+}
+.contanierImgsTop{
+  width: 62%;
+}
+.ImgsTopContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.ImgsTop1,
+.ImgsTop2{
+  position: relative;
+}
+.ImgsTop1{
+  width: 57.40%;
+  height: auto;
+  top: 180px;
+}
+.ImgsTop2{
+  width: 42.6%;
+  height: auto;
+  top: 230px;
+}
+.containerContentTop{
+  width: 38%;
+  padding-right: 70px;
+}
+.containerContentTop h2 {
+  font-size: 100px;
+  font-weight: 700;
+  color: var(--principal);
+}
+.containerContentTop p {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--principal);
+}
+.conatinerMidPage{
+  width: 83.81%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.conatinerMidPageImage{
+  width: 53.52%;
+}
+.conatinerMidPageImage img{
+  width: 100%;
+}
+.conatinerMidPageContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  width: 29.49%;
+  margin: 0 auto;
+  color: var(--principal);
+}
+.conatinerMidPageContent h2{
+  font-size: 60px;
+  line-height: 72.61px;
+
+}
+.conatinerMidPageContent p{
+  font-size: 20px;
+  line-height: 30px;
+
+}
+.main-quemsomos{
+  padding: 350px 0 0 0;
+  background-color: var(--fundo);
+}
+.cinzaContainer.fundoDark{
+  background: linear-gradient(rgba(53, 71, 57, 0.8), rgba(53, 71, 57, 0.8));
+}
+
+CSS
+.social-midia{
+    display: flex;
+    gap: 10px;
+}
+
+.quem-somos-fora{
+    width: 100%;
+    background-color: var(--terciaria);
+    margin-top: 120px;
+}
+.quem-somos{
+    width: 83.81%;
+    color: var(--principal);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.quem-somos img{
+    width: 120px;
+    height: 120px;
+}
+
+.rede-social img{
+    width: 26px;
+    height: 26px;
+    margin-left: 5px;
+
+}
+
+.quem-somos p{
+   margin-top: 10px;
+   font-weight: bold;
+}
